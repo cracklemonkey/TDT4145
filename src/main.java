@@ -6,8 +6,6 @@ import java.sql.*;
 
 public class main {
 
-
-
     public static void main(String[] args) {
         System.out.println("Hello World!"); // Display the string.
 
@@ -16,7 +14,11 @@ public class main {
         String username = "root";
         String password = "root";
 
-        try (Connection conn = DriverManager.getConnection(dbURL, username, password);){
+        DBIN dbin = new DBIN(dbURL, username, password);
+        dbin.insertExercise("running 200m","Run 200 meter as fast as you can.");
+
+
+        /*try (Connection conn = DriverManager.getConnection(dbURL, username, password);){
             if (conn != null) {
                 System.out.println("Connected");
 
@@ -39,7 +41,7 @@ public class main {
             }
         } catch (SQLException ex) {
             ex.printStackTrace();
-        }
+        }*/
 
 
     }
