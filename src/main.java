@@ -30,7 +30,7 @@ public class main {
                 while (result.next()){
                     String ovelse = result.getString("Ovelse_navn");
                     int gruppe = result.getInt("Gruppe_id");
-                    
+
                     System.out.println(ovelse + gruppe);
                 }
 
