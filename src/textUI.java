@@ -16,8 +16,9 @@ public class textUI {
     String dbURL = "jdbc:mysql://localhost:3306/TDT4145";
     String username = "root";
     String password = "root";
-    textUI txtUI = new textUI();
+    //textUI txtUI = new textUI();
     DBIN dbin = new DBIN(dbURL, username, password);
+    getters getters = new getters(dbURL, username, password);
     String exName = "";
     String exGroup = "";
     String exDesc = "";
@@ -47,7 +48,7 @@ public class textUI {
     Scanner reader = new Scanner(System.in);  // Reading from System.in
 
     //Creates sql.Time from user input
-    public java.sql.Time parseTime(String str){
+    private java.sql.Time parseTime(String str){
         try {
             DateFormat formaterDate = new SimpleDateFormat("hh:mm:ss");
             java.util.Date date = (java.util.Date) formaterDate.parse(str);
@@ -60,11 +61,11 @@ public class textUI {
     }
 
     //Creates a sql.Date from user input
-    public java.sql.Date parseDate(String str){
+    private java.sql.Date parseDate(String str){
         try {
             DateFormat formaterDate = new SimpleDateFormat("yyyy.mm.dd");
             java.util.Date date = (java.util.Date) formaterDate.parse(str);
-            java.sql.Date datesql = new java.sql.Date(date.getDate());
+            java.sql.Date datesql = new java.sql.Date(date.getTime());
             return datesql;
         } catch (ParseException e) {
             e.printStackTrace();
@@ -117,7 +118,6 @@ public class textUI {
                 "  Type a command:");
         String command = reader.nextLine(); // Scans the next token of the input as an Sring.
 
-
         try{
             //------------------------- Create Exercise ---------------------
             if (command.contentEquals("create ex")){
@@ -136,7 +136,7 @@ public class textUI {
                 //Endurance exercise
                 if(answer.contentEquals("e")){
                     System.out.println("excersice goal time: (hh:mm:ss) ");
-                    exTime = txtUI.parseTime(reader.nextLine());
+                    exTime = parseTime(reader.nextLine());
 
                     System.out.println("excersice distance in meters: ");
                     exDist = Integer.parseInt(reader.nextLine());
@@ -158,6 +158,7 @@ public class textUI {
                     System.out.println("excersice sets: ");
                     exSets = Integer.parseInt(reader.nextLine());
 
+
                     java.util.Date date = new java.util.Date();
                     java.sql.Date datesql = new java.sql.Date(date.getTime());
                     dbin.insertExercise(exName, exDesc);
@@ -168,14 +169,13 @@ public class textUI {
             //------------------------- Register workout ---------------------
             else if(command.contentEquals("reg work")){
                 System.out.println("workout date: (yyyy.mm.dd)");
-
-                workDate = txtUI.parseDate(reader.nextLine());
+                workDate = parseDate(reader.nextLine());
 
                 System.out.println("workout starttime: (hh:mm:ss)");
-                workStartTime = txtUI.parseTime(reader.nextLine());
+                workStartTime = parseTime(reader.nextLine());
 
                 System.out.println("workout duration: (hh:mm:ss)");
-                workDuration = txtUI.parseTime(reader.nextLine());
+                workDuration = parseTime(reader.nextLine());
 
                 System.out.println("Is the excersice endurance (e) or strenght (s)?: ");
                 answer = reader.nextLine();
@@ -183,20 +183,18 @@ public class textUI {
                 //Endurance workout
                 if(answer.contentEquals("e")){
                     System.out.println("workout time (hh:mm:ss): ");
-                    workTime = txtUI.parseTime(reader.nextLine());
+                    workTime = parseTime(reader.nextLine());
 
                     System.out.println("workout distance: ");
                     workDistance = Integer.parseInt(reader.nextLine());
 
-                    txtUI.inOutdoors();
-
+                    inOutdoors();
                     dbin.insertEntry(workDate, workStartTime, workDuration);
-                    //Finn entry_id
-                    dbin.insertEnduranceResults(exName, 1, workShape, workPerformance, workNote, workTime, workDistance);
+                    dbin.insertEnduranceResults(exName, getters.getTreningsokID(), workShape, workPerformance, workNote, workTime, workDistance);
                 }
                 //Strength workout
                 else if(answer.contentEquals("s")){
-                    while(answer != "no"){
+                    while(!answer.equals("no")){
                         System.out.println("excersice kg: ");
                         workKG = Integer.parseInt(reader.nextLine());
 
@@ -206,10 +204,9 @@ public class textUI {
                         System.out.println("excersice sets: ");
                         workSets = Integer.parseInt(reader.nextLine());
 
-                        txtUI.inOutdoors();
-
+                        inOutdoors();
                         dbin.insertEntry(workDate, workStartTime, workDuration);
-                        dbin.insertStrengthResults(exName, 1, workShape, workPerformance, workNote, workKG, workReps, workSets);
+                        dbin.insertStrengthResults(exName, getters.getTreningsokID(), workShape, workPerformance, workNote, workKG, workReps, workSets);
 
                         System.out.println("Do you want to register another excersice in this workout?");
                         answer = reader.nextLine();
@@ -218,7 +215,7 @@ public class textUI {
             }
         }catch (Exception e){
             System.out.println("Wrong input, try again");
-            txtUI.app();
+            //app();
         }
     }
 }
