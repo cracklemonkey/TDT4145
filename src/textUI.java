@@ -230,6 +230,7 @@ public class textUI {
 
                 while(!answer.equals("q")) {
                     getters.getUtholdenhetsResultat(Integer.parseInt(answer));
+                    getters.getStyrkeResultat(Integer.parseInt(answer));
                     System.out.println("Select workout id (q for quit):");
                     answer = reader.nextLine();
                 }

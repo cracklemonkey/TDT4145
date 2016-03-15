@@ -189,9 +189,9 @@ public class getters {
 
     }
 
-    public void getStyrkeResultat(){
+    public void getStyrkeResultat(int id){
         try (Connection conn = DriverManager.getConnection(dbURL, username, password)){
-            String sql = "SELECT * FROM styrkeresultat";
+            String sql = "SELECT * FROM StyrkeResultat WHERE Treningsokt_id = " + id;
             Statement statement = conn.createStatement();
             ResultSet result = statement.executeQuery(sql);
 
@@ -199,14 +199,14 @@ public class getters {
                 String ovelseNavn = result.getString("Ovelse_navn");
                 int treningsoktid = result.getInt("Treningsokt_id");
                 int form = result.getInt("form");
-                int prestasjon = result.getInt("prestajon");
+                int prestasjon = result.getInt("prestasjon");
                 String notat = result.getString("notat");
                 int belastning = result.getInt("belastning");
                 int reps = result.getInt("reps");
                 int sets = result.getInt("sets");
 
 
-                System.out.println("Navn på øvelse: " + ovelseNavn + "Treningsøkt ID: " + treningsoktid +
+                System.out.println("Navn på øvelse: " + ovelseNavn + " Treningsøkt ID: " + treningsoktid +
                         " Form: " + form + " Prestasjon: " + prestasjon + " Notat: "+ notat + " Belastning: " + belastning + " Reps: "+ reps + " Sets: " + sets);
             }
         }catch (SQLException ex) {
