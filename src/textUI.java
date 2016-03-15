@@ -29,7 +29,7 @@ public class textUI {
         try {
             DateFormat formaterDate = new SimpleDateFormat("yyyy.mm.dd");
             java.util.Date date = (java.util.Date) formaterDate.parse(str);
-            java.sql.Date datesql = new java.sql.Date(date.getDate());
+            java.sql.Date datesql = new java.sql.Date(date.getTime());
             return datesql;
         } catch (ParseException e) {
             e.printStackTrace();
@@ -45,6 +45,7 @@ public class textUI {
         String password = "root";
         textUI txtUI = new textUI();
         DBIN dbin = new DBIN(dbURL, username, password);
+        getters getters = new getters(dbURL, username, password);
         String exName = "";
         String exGroup = "";
         String exDesc = "";
@@ -116,8 +117,10 @@ public class textUI {
             }
         }
         else if(command.contentEquals("reg work")){
-            System.out.println("workout date: (yyyy.mm.dd)");
 
+            //dbin.insertEnduranceResults("running 200m", getters.getTreningsokID(), 1, 1, "note", txtUI.parseTime("01:00:00"), 199);
+
+            System.out.println("workout date: (yyyy.mm.dd)");
             workDate = txtUI.parseDate(reader.nextLine());
 
             System.out.println("workout starttime: (hh:mm:ss)");
@@ -150,12 +153,11 @@ public class textUI {
                 workDistance = Integer.parseInt(reader.nextLine());
 
                 dbin.insertEntry(workDate, workStartTime, workDuration);
-                //Finn entry_id
-                dbin.insertEnduranceResults(exName, 1, workShape, workPerformance, workNote, workTime, workDistance);
+                dbin.insertEnduranceResults(exName, getters.getTreningsokID(), workShape, workPerformance, workNote, workTime, workDistance);
             }
             else if(answer.contentEquals("s")){
 
-                while(answer != "no"){
+                while(!answer.equals("no")){
 
                     System.out.println("excersice name: ");
                     exName = reader.nextLine();
@@ -179,7 +181,7 @@ public class textUI {
                     workSets = Integer.parseInt(reader.nextLine());
 
                     dbin.insertEntry(workDate, workStartTime, workDuration);
-                    dbin.insertStrengthResults(exName, 1, workShape, workPerformance, workNote, workKG, workReps, workSets);
+                    dbin.insertStrengthResults(exName, getters.getTreningsokID(), workShape, workPerformance, workNote, workKG, workReps, workSets);
 
                     System.out.println("Do you want to register another excersice in this workout?");
                     answer = reader.nextLine();

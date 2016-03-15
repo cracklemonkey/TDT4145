@@ -4,6 +4,7 @@
     <list default="true" id="1b0221a4-a7d7-4d5d-827a-d9496e5cdbf2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/getters.java" afterPath="$PROJECT_DIR$/src/getters.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/textUI.java" afterPath="$PROJECT_DIR$/src/textUI.java" />
     </list>
     <ignored path="prosjekt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,14 +27,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DBIN.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DBIN.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <marker date="1458038937000" expanded="true" signature="668:771" placeholder="INSERT INTO ovelse... " />
+                <marker date="1458038937000" expanded="true" signature="1287:1342" placeholder="INSERT INTO Gruppe... " />
+                <marker date="1458038937000" expanded="true" signature="1886:1988" placeholder="INSERT INTO GruppeOvelse... " />
+                <marker date="1458038937000" expanded="true" signature="2524:2628" placeholder="INSERT INTO GruppeTilhorighet... " />
+                <marker date="1458038937000" expanded="true" signature="3170:3301" placeholder="INSERT INTO Innendors... " />
+                <marker date="1458038937000" expanded="true" signature="3849:3983" placeholder="INSERT INTO Utendors... " />
+                <marker date="1458038937000" expanded="true" signature="4496:4542" placeholder="INSERT INTO Mal... " />
+                <marker date="1458038937000" expanded="true" signature="5085:5183" placeholder="INSERT INTO MalInneholder... " />
+                <marker date="1458038937000" expanded="true" signature="5776:5987" placeholder="INSERT INTO StyrkeMaal... " />
+                <marker date="1458038937000" expanded="true" signature="6573:6765" placeholder="INSERT INTO UtholdenhetsMaal... " />
+                <marker date="1458038937000" expanded="true" signature="7297:7406" placeholder="INSERT INTO Treningsokt... " />
+                <marker date="1458038937000" expanded="true" signature="8020:8282" placeholder="INSERT INTO StyrkeResultat... " />
+                <marker date="1458038937000" expanded="true" signature="8890:9134" placeholder="INSERT INTO UtholdenhetsRestultat... " />
+                <marker date="1458038937000" expanded="true" signature="9687:9805" placeholder="INSERT INTO TilsvarendeOvelse... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="textUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/textUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="159" column="42" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="10" column="44" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="44" />
-              <folding>
-                <marker date="1458026669846" expanded="true" signature="533:559" placeholder="SELECT * FRO... gruppeovelse" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,25 +75,21 @@
       <file leaf-file-name="getters.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/getters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5159129">
-              <caret line="249" column="21" selection-start-line="249" selection-start-column="21" selection-end-line="249" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.47610295">
+              <caret line="245" column="105" selection-start-line="245" selection-start-column="105" selection-end-line="245" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1458038817688" expanded="true" signature="457:477" placeholder="SELECT * FRO... ovelse" />
-                <marker date="1458038817688" expanded="true" signature="1142:1162" placeholder="SELECT * FRO... gruppe" />
-                <marker date="1458038817688" expanded="true" signature="1723:1737" placeholder="SELECT * FRO... gruppe" />
-                <marker date="1458038817688" expanded="true" signature="1723:1747" placeholder="SELECT * FRO... styrkemaal" />
-                <marker date="1458038817688" expanded="true" signature="3004:3034" placeholder="SELECT * FRO... styrkemaal" />
-                <marker date="1458038817688" expanded="true" signature="4252:4277" placeholder="SELECT * FRO... treningsokt" />
-                <marker date="1458038817688" expanded="true" signature="5359:5373" placeholder="SELECT * FRO... treningsokt" />
-                <marker date="1458038817688" expanded="true" signature="5359:5382" placeholder="SELECT * FRO... innendors" />
-                <marker date="1458038817688" expanded="true" signature="6180:6194" placeholder="SELECT * FRO... innendors" />
-                <marker date="1458038817688" expanded="true" signature="6180:6202" placeholder="SELECT * FRO... utendors" />
-                <marker date="1458038817688" expanded="true" signature="7005:7025" placeholder="SELECT * FRO... styrkemaal" />
-                <marker date="1458038817688" expanded="true" signature="7005:7033" placeholder="SELECT * FRO... styrkeresultat" />
-                <marker date="1458038817688" expanded="true" signature="8188:8202" placeholder="SELECT * FRO... styrkemaal" />
-                <marker date="1458038817688" expanded="true" signature="8188:8222" placeholder="SELECT * FRO... utholdenhetsresultat" />
-                <marker date="1458038817688" expanded="true" signature="9365:9402" placeholder="select id(ma... treningsokt" />
+                <marker date="1458057533000" expanded="true" signature="569:589" placeholder="SELECT * FRO... ovelse" />
+                <marker date="1458057533000" expanded="true" signature="1254:1274" placeholder="SELECT * FRO... gruppe" />
+                <marker date="1458057533000" expanded="true" signature="1835:1859" placeholder="SELECT * FRO... styrkemaal" />
+                <marker date="1458057533000" expanded="true" signature="3116:3146" placeholder="SELECT * FRO... utholdenhetsmaal" />
+                <marker date="1458057533000" expanded="true" signature="4364:4389" placeholder="SELECT * FRO... treningsokt" />
+                <marker date="1458057533000" expanded="true" signature="5471:5494" placeholder="SELECT * FRO... innendors" />
+                <marker date="1458057533000" expanded="true" signature="6292:6314" placeholder="SELECT * FRO... utendors" />
+                <marker date="1458057533000" expanded="true" signature="7117:7145" placeholder="SELECT * FRO... styrkeresultat" />
+                <marker date="1458057533000" expanded="true" signature="8300:8334" placeholder="SELECT * FRO... utholdenhetsresultat" />
+                <marker date="1458057533000" expanded="true" signature="9477:9503" placeholder="select id fr... treningsokt" />
+                <marker date="1458057533000" expanded="true" signature="9477:9528" placeholder="select id fr... Treningsokt" />
               </folding>
             </state>
           </provider>
@@ -91,6 +121,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/getters.java" />
+        <option value="$PROJECT_DIR$/src/textUI.java" />
       </list>
     </option>
   </component>
@@ -100,9 +131,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -129,31 +159,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prosjekt" />
+              <option name="myItemId" value="tdb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prosjekt" />
+              <option name="myItemId" value="tdb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prosjekt" />
+              <option name="myItemId" value="tdb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prosjekt" />
+              <option name="myItemId" value="tdb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prosjekt" />
+              <option name="myItemId" value="tdb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -163,7 +194,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -182,7 +212,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.getters">
+  <component name="RunManager" selected="Application.main">
     <configuration default="false" name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="main" />
@@ -641,8 +671,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.getters" />
-        <item index="1" class="java.lang.String" itemvalue="Application.main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.getters" />
       </list>
     </recent_temporary>
   </component>
@@ -652,7 +682,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="71584ce6-3b1c-476d-bdd0-d140c07ae787" name="Default" comment="" />
+      <changelist id="1b0221a4-a7d7-4d5d-827a-d9496e5cdbf2" name="Default" comment="" />
       <created>1457428505132</created>
       <option name="number" value="Default" />
       <updated>1457428505132</updated>
@@ -660,6 +690,7 @@
       <workItem from="1457429071301" duration="2945000" />
       <workItem from="1457432780489" duration="996000" />
       <workItem from="1457433800767" duration="184000" />
+      <workItem from="1458039308536" duration="4143000" />
     </task>
     <task id="LOCAL-00001" summary="init commit.">
       <created>1457429103559</created>
@@ -677,23 +708,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13548000" />
+    <option name="totallyTimeSpent" value="17691000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -729,9 +760,28 @@
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/getters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1458026669846" expanded="true" signature="533:559" placeholder="SELECT * FRO... gruppeovelse" />
+            <element signature="imports" expanded="true" />
+            <marker date="1458057533000" expanded="true" signature="569:589" placeholder="SELECT * FRO... ovelse" />
+            <marker date="1458057533000" expanded="true" signature="1254:1274" placeholder="SELECT * FRO... gruppe" />
+            <marker date="1458057533000" expanded="true" signature="1835:1859" placeholder="SELECT * FRO... styrkemaal" />
+            <marker date="1458057533000" expanded="true" signature="3116:3146" placeholder="SELECT * FRO... utholdenhetsmaal" />
+            <marker date="1458057533000" expanded="true" signature="4364:4389" placeholder="SELECT * FRO... treningsokt" />
+            <marker date="1458057533000" expanded="true" signature="5471:5494" placeholder="SELECT * FRO... innendors" />
+            <marker date="1458057533000" expanded="true" signature="6292:6314" placeholder="SELECT * FRO... utendors" />
+            <marker date="1458057533000" expanded="true" signature="7117:7145" placeholder="SELECT * FRO... styrkeresultat" />
+            <marker date="1458057533000" expanded="true" signature="8300:8334" placeholder="SELECT * FRO... utholdenhetsresultat" />
+            <marker date="1458057533000" expanded="true" signature="9477:9503" placeholder="select id fr... treningsokt" />
+            <marker date="1458057533000" expanded="true" signature="9477:9528" placeholder="select id fr... Treningsokt" />
           </folding>
         </state>
       </provider>
@@ -739,34 +789,67 @@
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="44" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBIN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <marker date="1458026669846" expanded="true" signature="533:559" placeholder="SELECT * FRO... gruppeovelse" />
+            <marker date="1458038937000" expanded="true" signature="668:771" placeholder="INSERT INTO ovelse... " />
+            <marker date="1458038937000" expanded="true" signature="1287:1342" placeholder="INSERT INTO Gruppe... " />
+            <marker date="1458038937000" expanded="true" signature="1886:1988" placeholder="INSERT INTO GruppeOvelse... " />
+            <marker date="1458038937000" expanded="true" signature="2524:2628" placeholder="INSERT INTO GruppeTilhorighet... " />
+            <marker date="1458038937000" expanded="true" signature="3170:3301" placeholder="INSERT INTO Innendors... " />
+            <marker date="1458038937000" expanded="true" signature="3849:3983" placeholder="INSERT INTO Utendors... " />
+            <marker date="1458038937000" expanded="true" signature="4496:4542" placeholder="INSERT INTO Mal... " />
+            <marker date="1458038937000" expanded="true" signature="5085:5183" placeholder="INSERT INTO MalInneholder... " />
+            <marker date="1458038937000" expanded="true" signature="5776:5987" placeholder="INSERT INTO StyrkeMaal... " />
+            <marker date="1458038937000" expanded="true" signature="6573:6765" placeholder="INSERT INTO UtholdenhetsMaal... " />
+            <marker date="1458038937000" expanded="true" signature="7297:7406" placeholder="INSERT INTO Treningsokt... " />
+            <marker date="1458038937000" expanded="true" signature="8020:8282" placeholder="INSERT INTO StyrkeResultat... " />
+            <marker date="1458038937000" expanded="true" signature="8890:9134" placeholder="INSERT INTO UtholdenhetsRestultat... " />
+            <marker date="1458038937000" expanded="true" signature="9687:9805" placeholder="INSERT INTO TilsvarendeOvelse... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="159" column="42" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/getters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5159129">
-          <caret line="249" column="21" selection-start-line="249" selection-start-column="21" selection-end-line="249" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.47610295">
+          <caret line="245" column="105" selection-start-line="245" selection-start-column="105" selection-end-line="245" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1458038817688" expanded="true" signature="457:477" placeholder="SELECT * FRO... ovelse" />
-            <marker date="1458038817688" expanded="true" signature="1142:1162" placeholder="SELECT * FRO... gruppe" />
-            <marker date="1458038817688" expanded="true" signature="1723:1737" placeholder="SELECT * FRO... gruppe" />
-            <marker date="1458038817688" expanded="true" signature="1723:1747" placeholder="SELECT * FRO... styrkemaal" />
-            <marker date="1458038817688" expanded="true" signature="3004:3034" placeholder="SELECT * FRO... styrkemaal" />
-            <marker date="1458038817688" expanded="true" signature="4252:4277" placeholder="SELECT * FRO... treningsokt" />
-            <marker date="1458038817688" expanded="true" signature="5359:5373" placeholder="SELECT * FRO... treningsokt" />
-            <marker date="1458038817688" expanded="true" signature="5359:5382" placeholder="SELECT * FRO... innendors" />
-            <marker date="1458038817688" expanded="true" signature="6180:6194" placeholder="SELECT * FRO... innendors" />
-            <marker date="1458038817688" expanded="true" signature="6180:6202" placeholder="SELECT * FRO... utendors" />
-            <marker date="1458038817688" expanded="true" signature="7005:7025" placeholder="SELECT * FRO... styrkemaal" />
-            <marker date="1458038817688" expanded="true" signature="7005:7033" placeholder="SELECT * FRO... styrkeresultat" />
-            <marker date="1458038817688" expanded="true" signature="8188:8202" placeholder="SELECT * FRO... styrkemaal" />
-            <marker date="1458038817688" expanded="true" signature="8188:8222" placeholder="SELECT * FRO... utholdenhetsresultat" />
-            <marker date="1458038817688" expanded="true" signature="9365:9402" placeholder="select id(ma... treningsokt" />
+            <marker date="1458057533000" expanded="true" signature="569:589" placeholder="SELECT * FRO... ovelse" />
+            <marker date="1458057533000" expanded="true" signature="1254:1274" placeholder="SELECT * FRO... gruppe" />
+            <marker date="1458057533000" expanded="true" signature="1835:1859" placeholder="SELECT * FRO... styrkemaal" />
+            <marker date="1458057533000" expanded="true" signature="3116:3146" placeholder="SELECT * FRO... utholdenhetsmaal" />
+            <marker date="1458057533000" expanded="true" signature="4364:4389" placeholder="SELECT * FRO... treningsokt" />
+            <marker date="1458057533000" expanded="true" signature="5471:5494" placeholder="SELECT * FRO... innendors" />
+            <marker date="1458057533000" expanded="true" signature="6292:6314" placeholder="SELECT * FRO... utendors" />
+            <marker date="1458057533000" expanded="true" signature="7117:7145" placeholder="SELECT * FRO... styrkeresultat" />
+            <marker date="1458057533000" expanded="true" signature="8300:8334" placeholder="SELECT * FRO... utholdenhetsresultat" />
+            <marker date="1458057533000" expanded="true" signature="9477:9503" placeholder="select id fr... treningsokt" />
+            <marker date="1458057533000" expanded="true" signature="9477:9528" placeholder="select id fr... Treningsokt" />
           </folding>
         </state>
       </provider>

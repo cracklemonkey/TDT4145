@@ -9,10 +9,15 @@ import java.text.SimpleDateFormat;
 public class getters {
 
 
-    String dbURL = "jdbc:mysql://localhost:3306/TDT4145";
-    String username = "root";
-    String password = "root";
+    String dbURL;
+    String username;
+    String password;
 
+    public getters(String dbURL, String username, String password){
+        this.dbURL = dbURL;
+        this.username = username;
+        this.password = password;
+    }
 
 
     public void getOvelse() {
@@ -238,7 +243,8 @@ public class getters {
     public int getTreningsokID(){
         try (Connection conn = DriverManager.getConnection(dbURL, username, password)){
             Statement statement = conn.createStatement();
-            ResultSet idMax = statement.executeQuery("select id(max(id),0) from treningsokt");
+            ResultSet idMax = statement.executeQuery("select id from Treningsokt ORDER BY id DESC LIMIT 1");
+            System.out.println("select nvl(max(id),0) from Treningsokt");
             int id2 = 0;
             if ( idMax.next() ){
                 id2 = idMax.getInt(1);
@@ -250,12 +256,5 @@ public class getters {
             return 0;
         }
 
-    }
-
-
-
-    public static void main(String[] args) {
-        getters get = new getters();
-        get.getOvelse();
     }
 }
