@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b0221a4-a7d7-4d5d-827a-d9496e5cdbf2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/getters.java" afterPath="$PROJECT_DIR$/src/getters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/textUI.java" afterPath="$PROJECT_DIR$/src/textUI.java" />
-    </list>
+    <list default="true" id="1b0221a4-a7d7-4d5d-827a-d9496e5cdbf2" name="Default" comment="" />
     <ignored path="prosjekt.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -690,7 +686,7 @@
       <workItem from="1457429071301" duration="2945000" />
       <workItem from="1457432780489" duration="996000" />
       <workItem from="1457433800767" duration="184000" />
-      <workItem from="1458039308536" duration="4143000" />
+      <workItem from="1458039308536" duration="4193000" />
     </task>
     <task id="LOCAL-00001" summary="init commit.">
       <created>1457429103559</created>
@@ -708,7 +704,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17691000" />
+    <option name="totallyTimeSpent" value="17741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
