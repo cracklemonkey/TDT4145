@@ -72,6 +72,7 @@ public class textUI {
         System.out.println("create ex (creates a new excersice)\nreg work (register workout)\n Type a command:");
         String command = reader.nextLine(); // Scans the next token of the input as an Sring.
 
+        //------------------------- Create Exercise ---------------------
         if (command.contentEquals("create ex")){
             System.out.println("excersice name: ");
             exName = reader.nextLine();
@@ -85,6 +86,7 @@ public class textUI {
             System.out.println("Is the excersice endurance (e) or strenght (s)?: ");
             answer = reader.nextLine();
 
+            //Endurance exercise
             if(answer.contentEquals("e")){
                 System.out.println("excersice goal time: (hh:mm:ss) ");
                 exTime = txtUI.parseTime(reader.nextLine());
@@ -98,6 +100,7 @@ public class textUI {
                 dbin.insertGroupExercise(exName, exGroup);
                 dbin.insertEnduranceGoal(exName, datesql, datesql, exTime, exDist);
             }
+            //Strenght exercise
             else if(answer.contentEquals("s")){
                 System.out.println("excersice kg: ");
                 exKG = Integer.parseInt(reader.nextLine());
@@ -115,6 +118,7 @@ public class textUI {
                 dbin.insertStrengthGoal(exName, datesql, datesql, exKG, exReps, exSets);
             }
         }
+        //------------------------- Register workout ---------------------
         else if(command.contentEquals("reg work")){
             System.out.println("workout date: (yyyy.mm.dd)");
 
@@ -129,6 +133,7 @@ public class textUI {
             System.out.println("Is the excersice endurance (e) or strenght (s)?: ");
             answer = reader.nextLine();
 
+            //Endurance workout
             if(answer.contentEquals("e")){
 
                 System.out.println("excersice name: ");
@@ -153,6 +158,7 @@ public class textUI {
                 //Finn entry_id
                 dbin.insertEnduranceResults(exName, 1, workShape, workPerformance, workNote, workTime, workDistance);
             }
+            //Strength workout
             else if(answer.contentEquals("s")){
 
                 while(answer != "no"){
