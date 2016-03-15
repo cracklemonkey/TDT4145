@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b0221a4-a7d7-4d5d-827a-d9496e5cdbf2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/getters.java" afterPath="$PROJECT_DIR$/src/getters.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/textUI.java" afterPath="$PROJECT_DIR$/src/textUI.java" />
     </list>
     <ignored path="prosjekt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,36 +31,39 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="10" column="44" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getters.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/getters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
-                <marker date="1458026669846" expanded="true" signature="533:559" placeholder="SELECT * FRO... gruppeovelse" />
+                <element signature="imports" expanded="true" />
+                <marker date="1458054498377" expanded="true" signature="457:477" placeholder="SELECT * FRO... ovelse" />
+                <marker date="1458054498377" expanded="true" signature="1142:1162" placeholder="SELECT * FRO... gruppe" />
+                <marker date="1458054498377" expanded="true" signature="1723:1747" placeholder="SELECT * FRO... styrkemaal" />
+                <marker date="1458054498377" expanded="true" signature="3004:3034" placeholder="SELECT * FRO... utholdenhetsmaal" />
+                <marker date="1458054498377" expanded="true" signature="4252:4277" placeholder="SELECT * FRO... treningsokt" />
+                <marker date="1458054498377" expanded="true" signature="5359:5382" placeholder="SELECT * FRO... innendors" />
+                <marker date="1458054498377" expanded="true" signature="6180:6202" placeholder="SELECT * FRO... utendors" />
+                <marker date="1458054498377" expanded="true" signature="7005:7033" placeholder="SELECT * FRO... styrkeresultat" />
+                <marker date="1458054498377" expanded="true" signature="8188:8222" placeholder="SELECT * FRO... utholdenhetsresultat" />
+                <marker date="1458054498377" expanded="true" signature="9365:9402" placeholder="select id(ma... treningsokt" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getters.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/getters.java">
+      <file leaf-file-name="textUI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/textUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5159129">
-              <caret line="249" column="21" selection-start-line="249" selection-start-column="21" selection-end-line="249" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1458038817688" expanded="true" signature="457:477" placeholder="SELECT * FRO... ovelse" />
-                <marker date="1458038817688" expanded="true" signature="1142:1162" placeholder="SELECT * FRO... gruppe" />
-                <marker date="1458038817688" expanded="true" signature="1723:1737" placeholder="SELECT * FRO... gruppe" />
-                <marker date="1458038817688" expanded="true" signature="1723:1747" placeholder="SELECT * FRO... styrkemaal" />
-                <marker date="1458038817688" expanded="true" signature="3004:3034" placeholder="SELECT * FRO... styrkemaal" />
-                <marker date="1458038817688" expanded="true" signature="4252:4277" placeholder="SELECT * FRO... treningsokt" />
-                <marker date="1458038817688" expanded="true" signature="5359:5373" placeholder="SELECT * FRO... treningsokt" />
-                <marker date="1458038817688" expanded="true" signature="5359:5382" placeholder="SELECT * FRO... innendors" />
-                <marker date="1458038817688" expanded="true" signature="6180:6194" placeholder="SELECT * FRO... innendors" />
-                <marker date="1458038817688" expanded="true" signature="6180:6202" placeholder="SELECT * FRO... utendors" />
-                <marker date="1458038817688" expanded="true" signature="7005:7025" placeholder="SELECT * FRO... styrkemaal" />
-                <marker date="1458038817688" expanded="true" signature="7005:7033" placeholder="SELECT * FRO... styrkeresultat" />
-                <marker date="1458038817688" expanded="true" signature="8188:8202" placeholder="SELECT * FRO... styrkemaal" />
-                <marker date="1458038817688" expanded="true" signature="8188:8222" placeholder="SELECT * FRO... utholdenhetsresultat" />
-                <marker date="1458038817688" expanded="true" signature="9365:9402" placeholder="select id(ma... treningsokt" />
-              </folding>
+            <state vertical-scroll-proportion="0.52380955">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,6 +94,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/getters.java" />
+        <option value="$PROJECT_DIR$/src/textUI.java" />
       </list>
     </option>
   </component>
@@ -100,9 +104,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -133,27 +138,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prosjekt" />
+              <option name="myItemId" value="TDT4145" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prosjekt" />
+              <option name="myItemId" value="TDT4145" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prosjekt" />
+              <option name="myItemId" value="TDT4145" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prosjekt" />
+              <option name="myItemId" value="TDT4145" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prosjekt" />
+              <option name="myItemId" value="TDT4145" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -163,15 +168,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -652,7 +656,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="71584ce6-3b1c-476d-bdd0-d140c07ae787" name="Default" comment="" />
+      <changelist id="1b0221a4-a7d7-4d5d-827a-d9496e5cdbf2" name="Default" comment="" />
       <created>1457428505132</created>
       <option name="number" value="Default" />
       <updated>1457428505132</updated>
@@ -660,6 +664,8 @@
       <workItem from="1457429071301" duration="2945000" />
       <workItem from="1457432780489" duration="996000" />
       <workItem from="1457433800767" duration="184000" />
+      <workItem from="1458056129334" duration="171000" />
+      <workItem from="1458056327036" duration="2241000" />
     </task>
     <task id="LOCAL-00001" summary="init commit.">
       <created>1457429103559</created>
@@ -677,37 +683,45 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13548000" />
+    <option name="totallyTimeSpent" value="15960000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -729,9 +743,27 @@
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/getters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1458026669846" expanded="true" signature="533:559" placeholder="SELECT * FRO... gruppeovelse" />
+            <element signature="imports" expanded="true" />
+            <marker date="1458054498377" expanded="true" signature="457:477" placeholder="SELECT * FRO... ovelse" />
+            <marker date="1458054498377" expanded="true" signature="1142:1162" placeholder="SELECT * FRO... gruppe" />
+            <marker date="1458054498377" expanded="true" signature="1723:1747" placeholder="SELECT * FRO... styrkemaal" />
+            <marker date="1458054498377" expanded="true" signature="3004:3034" placeholder="SELECT * FRO... utholdenhetsmaal" />
+            <marker date="1458054498377" expanded="true" signature="4252:4277" placeholder="SELECT * FRO... treningsokt" />
+            <marker date="1458054498377" expanded="true" signature="5359:5382" placeholder="SELECT * FRO... innendors" />
+            <marker date="1458054498377" expanded="true" signature="6180:6202" placeholder="SELECT * FRO... utendors" />
+            <marker date="1458054498377" expanded="true" signature="7005:7033" placeholder="SELECT * FRO... styrkeresultat" />
+            <marker date="1458054498377" expanded="true" signature="8188:8222" placeholder="SELECT * FRO... utholdenhetsresultat" />
+            <marker date="1458054498377" expanded="true" signature="9365:9402" placeholder="select id(ma... treningsokt" />
           </folding>
         </state>
       </provider>
@@ -740,34 +772,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="44" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <marker date="1458026669846" expanded="true" signature="533:559" placeholder="SELECT * FRO... gruppeovelse" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/getters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5159129">
-          <caret line="249" column="21" selection-start-line="249" selection-start-column="21" selection-end-line="249" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1458038817688" expanded="true" signature="457:477" placeholder="SELECT * FRO... ovelse" />
-            <marker date="1458038817688" expanded="true" signature="1142:1162" placeholder="SELECT * FRO... gruppe" />
-            <marker date="1458038817688" expanded="true" signature="1723:1737" placeholder="SELECT * FRO... gruppe" />
-            <marker date="1458038817688" expanded="true" signature="1723:1747" placeholder="SELECT * FRO... styrkemaal" />
-            <marker date="1458038817688" expanded="true" signature="3004:3034" placeholder="SELECT * FRO... styrkemaal" />
-            <marker date="1458038817688" expanded="true" signature="4252:4277" placeholder="SELECT * FRO... treningsokt" />
-            <marker date="1458038817688" expanded="true" signature="5359:5373" placeholder="SELECT * FRO... treningsokt" />
-            <marker date="1458038817688" expanded="true" signature="5359:5382" placeholder="SELECT * FRO... innendors" />
-            <marker date="1458038817688" expanded="true" signature="6180:6194" placeholder="SELECT * FRO... innendors" />
-            <marker date="1458038817688" expanded="true" signature="6180:6202" placeholder="SELECT * FRO... utendors" />
-            <marker date="1458038817688" expanded="true" signature="7005:7025" placeholder="SELECT * FRO... styrkemaal" />
-            <marker date="1458038817688" expanded="true" signature="7005:7033" placeholder="SELECT * FRO... styrkeresultat" />
-            <marker date="1458038817688" expanded="true" signature="8188:8202" placeholder="SELECT * FRO... styrkemaal" />
-            <marker date="1458038817688" expanded="true" signature="8188:8222" placeholder="SELECT * FRO... utholdenhetsresultat" />
-            <marker date="1458038817688" expanded="true" signature="9365:9402" placeholder="select id(ma... treningsokt" />
+            <marker date="1458054498377" expanded="true" signature="457:477" placeholder="SELECT * FRO... ovelse" />
+            <marker date="1458054498377" expanded="true" signature="1142:1162" placeholder="SELECT * FRO... gruppe" />
+            <marker date="1458054498377" expanded="true" signature="1723:1747" placeholder="SELECT * FRO... styrkemaal" />
+            <marker date="1458054498377" expanded="true" signature="3004:3034" placeholder="SELECT * FRO... utholdenhetsmaal" />
+            <marker date="1458054498377" expanded="true" signature="4252:4277" placeholder="SELECT * FRO... treningsokt" />
+            <marker date="1458054498377" expanded="true" signature="5359:5382" placeholder="SELECT * FRO... innendors" />
+            <marker date="1458054498377" expanded="true" signature="6180:6202" placeholder="SELECT * FRO... utendors" />
+            <marker date="1458054498377" expanded="true" signature="7005:7033" placeholder="SELECT * FRO... styrkeresultat" />
+            <marker date="1458054498377" expanded="true" signature="8188:8222" placeholder="SELECT * FRO... utholdenhetsresultat" />
+            <marker date="1458054498377" expanded="true" signature="9365:9402" placeholder="select id(ma... treningsokt" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/getters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1458054498377" expanded="true" signature="457:477" placeholder="SELECT * FRO... ovelse" />
+            <marker date="1458054498377" expanded="true" signature="1142:1162" placeholder="SELECT * FRO... gruppe" />
+            <marker date="1458054498377" expanded="true" signature="1723:1747" placeholder="SELECT * FRO... styrkemaal" />
+            <marker date="1458054498377" expanded="true" signature="3004:3034" placeholder="SELECT * FRO... utholdenhetsmaal" />
+            <marker date="1458054498377" expanded="true" signature="4252:4277" placeholder="SELECT * FRO... treningsokt" />
+            <marker date="1458054498377" expanded="true" signature="5359:5382" placeholder="SELECT * FRO... innendors" />
+            <marker date="1458054498377" expanded="true" signature="6180:6202" placeholder="SELECT * FRO... utendors" />
+            <marker date="1458054498377" expanded="true" signature="7005:7033" placeholder="SELECT * FRO... styrkeresultat" />
+            <marker date="1458054498377" expanded="true" signature="8188:8222" placeholder="SELECT * FRO... utholdenhetsresultat" />
+            <marker date="1458054498377" expanded="true" signature="9365:9402" placeholder="select id(ma... treningsokt" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52380955">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
