@@ -12,7 +12,37 @@ import java.util.Timer;
  * Created by thomas on 15/03/16.
  */
 public class textUI {
+    String answer = "";
+    String dbURL = "jdbc:mysql://localhost:3306/TDT4145";
+    String username = "root";
+    String password = "root";
+    textUI txtUI = new textUI();
+    DBIN dbin = new DBIN(dbURL, username, password);
+    String exName = "";
+    String exGroup = "";
+    String exDesc = "";
+    Time exTime;
+    Integer exDist;
+    Integer exKG;
+    Integer exReps;
+    Integer exSets;
 
+    java.sql.Date workDate;
+    Time workStartTime;
+    Time workDuration;
+    Integer workShape;
+    Integer workPerformance;
+    String workNote = "";
+    Time workTime;
+    Integer workDistance;
+    Integer workKG;
+    Integer workReps;
+    Integer workSets;
+
+    DateFormat formaterDate = new SimpleDateFormat("yyyy.mm.dd");
+    Scanner reader = new Scanner(System.in);  // Reading from System.in
+
+    //Creates sql.Time from user input
     public java.sql.Time parseTime(String str){
         try {
             DateFormat formaterDate = new SimpleDateFormat("hh:mm:ss");
@@ -25,6 +55,7 @@ public class textUI {
         }
     }
 
+    //Creates a sql.Date from user input
     public java.sql.Date parseDate(String str){
         try {
             DateFormat formaterDate = new SimpleDateFormat("yyyy.mm.dd");
@@ -37,38 +68,23 @@ public class textUI {
         }
     }
 
+    //Asks user for result info used in both endurance and strenght
+    public void result(){
+        System.out.println("excersice name: ");
+        exName = reader.nextLine();
+
+        System.out.println("workout's shape on a scale from 1-10: ");
+        workShape = Integer.parseInt(reader.nextLine());
+
+        System.out.println("workout performance on a scale from 1-10: ");
+        workPerformance = Integer.parseInt(reader.nextLine());
+
+        System.out.println("workout note: ");
+        workNote = reader.nextLine();
+    }
+
+    //Main method for textUI
     public void app() {
-
-        String answer = "";
-        String dbURL = "jdbc:mysql://localhost:3306/TDT4145";
-        String username = "root";
-        String password = "root";
-        textUI txtUI = new textUI();
-        DBIN dbin = new DBIN(dbURL, username, password);
-        String exName = "";
-        String exGroup = "";
-        String exDesc = "";
-        Time exTime;
-        Integer exDist;
-        Integer exKG;
-        Integer exReps;
-        Integer exSets;
-
-        java.sql.Date workDate;
-        Time workStartTime;
-        Time workDuration;
-        Integer workShape;
-        Integer workPerformance;
-        String workNote = "";
-        Time workTime;
-        Integer workDistance;
-        Integer workKG;
-        Integer workReps;
-        Integer workSets;
-
-        DateFormat formaterDate = new SimpleDateFormat("yyyy.mm.dd");
-        Scanner reader = new Scanner(System.in);  // Reading from System.in
-
         System.out.println("create ex (creates a new excersice)\nreg work (register workout)\n Type a command:");
         String command = reader.nextLine(); // Scans the next token of the input as an Sring.
 
@@ -135,19 +151,6 @@ public class textUI {
 
             //Endurance workout
             if(answer.contentEquals("e")){
-
-                System.out.println("excersice name: ");
-                exName = reader.nextLine();
-
-                System.out.println("workout's shape on a scale from 1-10: ");
-                workShape = Integer.parseInt(reader.nextLine());
-
-                System.out.println("workout performance on a scale from 1-10: ");
-                workPerformance = Integer.parseInt(reader.nextLine());
-
-                System.out.println("workout note: ");
-                workNote = reader.nextLine();
-
                 System.out.println("workout time (hh:mm:ss): ");
                 workTime = txtUI.parseTime(reader.nextLine());
 
@@ -160,21 +163,7 @@ public class textUI {
             }
             //Strength workout
             else if(answer.contentEquals("s")){
-
                 while(answer != "no"){
-
-                    System.out.println("excersice name: ");
-                    exName = reader.nextLine();
-
-                    System.out.println("workout's shape on a scale from 1-10: ");
-                    workShape = Integer.parseInt(reader.nextLine());
-
-                    System.out.println("workout performance on a scale from 1-10: ");
-                    workPerformance = Integer.parseInt(reader.nextLine());
-
-                    System.out.println("workout note: ");
-                    workNote = reader.nextLine();
-
                     System.out.println("excersice kg: ");
                     workKG = Integer.parseInt(reader.nextLine());
 
@@ -189,7 +178,6 @@ public class textUI {
 
                     System.out.println("Do you want to register another excersice in this workout?");
                     answer = reader.nextLine();
-
                 }
             }
         }
