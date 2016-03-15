@@ -39,7 +39,7 @@ public class textUI {
     Integer workKG;
     Integer workReps;
     Integer workSets;
-    String workAir = "";
+    Integer workAir;
     Integer workSpectators;
     Integer workTemp;
     String workWeather = "";
@@ -94,11 +94,12 @@ public class textUI {
         answer = reader.nextLine();
 
         if(answer.contentEquals("i")){
-            System.out.println("how was the air?: ");
-            workAir = reader.nextLine();
+            System.out.println("how was the air (0-10)?: ");
+            workAir = Integer.parseInt(reader.nextLine());
 
             System.out.println("number of spectaters: ");
             workSpectators = Integer.parseInt(reader.nextLine());
+            dbin.insertIndoor(getters.getTreningsokID(), workAir, workSpectators);
         }
         else if(answer.contentEquals("o")){
             System.out.println("temperature: ");
@@ -106,6 +107,7 @@ public class textUI {
 
             System.out.println("weather: ");
             workWeather = reader.nextLine();
+            dbin.insertOutdoor(getters.getTreningsokID(), workTemp, workWeather);
         }
     }
 
@@ -113,8 +115,8 @@ public class textUI {
     public void app() {
         System.out.println("create ex (creates a new excersice)\n" +
                 "reg work (register workout)\n" +
-                "show exercises (show ex)\n" +
-                "show workouts (show work)\n" +
+                "show ex (show exercises)\n" +
+                "show work (show workouts)\n" +
                 "  Type a command:");
         String command = reader.nextLine(); // Scans the next token of the input as an Sring.
 
@@ -182,19 +184,22 @@ public class textUI {
 
                 //Endurance workout
                 if(answer.contentEquals("e")){
+                    result();
+
                     System.out.println("workout time (hh:mm:ss): ");
                     workTime = parseTime(reader.nextLine());
 
                     System.out.println("workout distance: ");
                     workDistance = Integer.parseInt(reader.nextLine());
 
-                    inOutdoors();
                     dbin.insertEntry(workDate, workStartTime, workDuration);
                     dbin.insertEnduranceResults(exName, getters.getTreningsokID(), workShape, workPerformance, workNote, workTime, workDistance);
                 }
                 //Strength workout
                 else if(answer.contentEquals("s")){
                     while(!answer.equals("no")){
+                        result();
+
                         System.out.println("excersice kg: ");
                         workKG = Integer.parseInt(reader.nextLine());
 
@@ -204,7 +209,6 @@ public class textUI {
                         System.out.println("excersice sets: ");
                         workSets = Integer.parseInt(reader.nextLine());
 
-                        inOutdoors();
                         dbin.insertEntry(workDate, workStartTime, workDuration);
                         dbin.insertStrengthResults(exName, getters.getTreningsokID(), workShape, workPerformance, workNote, workKG, workReps, workSets);
 
@@ -212,7 +216,25 @@ public class textUI {
                         answer = reader.nextLine();
                     }
                 }
+                inOutdoors();
             }
+            //------------------------- Show Exercise ---------------------
+            else if (command.contentEquals("show ex")){
+                getters.getOvelse();
+            }
+            //------------------------- Show Workout ---------------------
+            else if (command.contentEquals("show work")){
+                getters.getTrening();
+                System.out.println("Select workout id (q for quit):");
+                answer = reader.nextLine();
+
+                while(!answer.equals("q")) {
+                    getters.getUtholdenhetsResultat(Integer.parseInt(answer));
+                    System.out.println("Select workout id (q for quit):");
+                    answer = reader.nextLine();
+                }
+            }
+
         }catch (Exception e){
             System.out.println("Wrong input, try again");
             //app();

@@ -215,9 +215,9 @@ public class getters {
 
     }
 
-    public void getUtholdenhetsResultat(){
+    public void getUtholdenhetsResultat(int id){
         try (Connection conn = DriverManager.getConnection(dbURL, username, password)){
-            String sql = "SELECT * FROM utholdenhetsresultat";
+            String sql = "SELECT * FROM UtholdenhetsRestultat WHERE Treningsokt_id = " + id;
             Statement statement = conn.createStatement();
             ResultSet result = statement.executeQuery(sql);
 
@@ -225,13 +225,13 @@ public class getters {
                 String ovelseNavn = result.getString("Ovelse_navn");
                 int treningsoktid = result.getInt("Treningsokt_id");
                 int form = result.getInt("form");
-                int prestasjon = result.getInt("prestajon");
+                int prestasjon = result.getInt("prestasjon");
                 String notat = result.getString("notat");
                 int tid = result.getInt("tid");
                 int lengde = result.getInt("lengde");
 
 
-                System.out.println("Navn på øvelse: " + ovelseNavn + "Treningsøkt ID: " + treningsoktid +
+                System.out.println("Navn på øvelse: " + ovelseNavn + " Treningsøkt ID: " + treningsoktid +
                         " Form: " + form + " Prestasjon: " + prestasjon + " Notat: "+ notat + " Tid: "+ tid + " Lengde: " + lengde);
             }
         }catch (SQLException ex) {
@@ -255,6 +255,16 @@ public class getters {
             ex.printStackTrace();
             return 0;
         }
+    }
 
+    public void getWorkout(int id){
+        try (Connection conn = DriverManager.getConnection(dbURL, username, password)){
+            Statement statement = conn.createStatement();
+            ResultSet result = statement.executeQuery("select * from Treningsokt JOIN UtholdenhetsResultat WHERE Treningsork_id =" + id);
+            //System.out.println(result);
+
+        }catch (SQLException ex) {
+            ex.printStackTrace();
+        }
     }
 }

@@ -85,7 +85,7 @@ public class DBIN {
         }
     }
 
-    public void insertOutdoor(int entry_id, int temperature, int weather_type){
+    public void insertOutdoor(int entry_id, int temperature, String weather_type){
         try (Connection conn = DriverManager.getConnection(dbURL, username, password);){
             if (conn != null) {
                 System.out.println("Connected to database...");
