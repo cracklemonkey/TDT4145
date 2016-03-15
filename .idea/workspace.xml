@@ -61,8 +61,8 @@
       <file leaf-file-name="textUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/textUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52380955">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7585034">
+              <caret line="169" column="65" selection-start-line="169" selection-start-column="65" selection-end-line="169" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -665,7 +665,7 @@
       <workItem from="1457432780489" duration="996000" />
       <workItem from="1457433800767" duration="184000" />
       <workItem from="1458056129334" duration="171000" />
-      <workItem from="1458056327036" duration="2241000" />
+      <workItem from="1458056327036" duration="2985000" />
     </task>
     <task id="LOCAL-00001" summary="init commit.">
       <created>1457429103559</created>
@@ -679,11 +679,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457429165974</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Indoors and outdoors. Added simple exception-handler.">
+      <created>1458058630129</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1458058630129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15960000" />
+    <option name="totallyTimeSpent" value="16704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -691,6 +697,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -704,7 +711,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -729,7 +735,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit." />
     <MESSAGE value="init commit main." />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit main." />
+    <MESSAGE value="Added Indoors and outdoors. Added simple exception-handler." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Indoors and outdoors. Added simple exception-handler." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -834,8 +841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/textUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52380955">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7585034">
+          <caret line="169" column="65" selection-start-line="169" selection-start-column="65" selection-end-line="169" selection-end-column="65" />
           <folding />
         </state>
       </provider>

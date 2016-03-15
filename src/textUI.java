@@ -110,11 +110,16 @@ public class textUI {
 
     //Main method for textUI
     public void app() {
-        System.out.println("create ex (creates a new excersice)\nreg work (register workout)\n Type a command:");
+        System.out.println("create ex (creates a new excersice)\n" +
+                "reg work (register workout)\n" +
+                "show exercises (show ex)\n" +
+                "show workouts (show work)\n" +
+                "  Type a command:");
         String command = reader.nextLine(); // Scans the next token of the input as an Sring.
 
-        //------------------------- Create Exercise ---------------------
+
         try{
+            //------------------------- Create Exercise ---------------------
             if (command.contentEquals("create ex")){
                 System.out.println("excersice name: ");
                 exName = reader.nextLine();
