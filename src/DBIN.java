@@ -157,7 +157,7 @@ public class DBIN {
         }
     }
 
-    public void insertEntry(Date date, Time time, int length){
+    public void insertEntry(Date date, Time time, Time length){
         try (Connection conn = DriverManager.getConnection(dbURL, username, password);){
             if (conn != null) {
                 System.out.println("Connected to database...");
@@ -185,7 +185,7 @@ public class DBIN {
         }
     }
 
-    public void insertEnduranceResults(String exercise_name, int entry_id, int shape, int performance, String note, int time, int length){
+    public void insertEnduranceResults(String exercise_name, int entry_id, int shape, int performance, String note, Time time, int length){
         try (Connection conn = DriverManager.getConnection(dbURL, username, password);){
             if (conn != null) {
                 System.out.println("Connected to database...");
